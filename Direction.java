@@ -1,12 +1,18 @@
-public class Direction{
-	private int dx, dy;
-	public Position pos;
-	private Direction HAUT, BAS, GAUCHE, DROITE;
-	private 
+public enum Direction{
+	HAUT, BAS, GAUCHE, DROITE;
 	
-	public Direction(int dx, int dy){
+	public Direction(){
+		HAUT = (0,-1);
+		BAS = (0,1);
+		GAUCHE = (-1,0);
+		DROITE = (1,0);
+	}
+	
+	public ArrayList<Direction> getDirection(){
+		return {HAUT,BAS,GAUCHE,DROITE};
 		
 	}
+}
 	
 	
 		

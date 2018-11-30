@@ -5,7 +5,6 @@ public class Position{
 	public Position( int x, int y){
 		this.x = x;
 		this.y = y;
-		return (this.x, this.y);
 	}
 	
 	public Position (){
@@ -25,3 +24,8 @@ public class Position{
 		return p.x==x && p.y==y;
 		
 	}
+	
+	public Position add(Direction direc){
+		
+	}
+}
